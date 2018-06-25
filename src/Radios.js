@@ -3,8 +3,8 @@ import utils from './utils';
 import classNames from 'classnames';
 import ComposedComponent from './ComposedComponent';
 
-import RadioButton from '@material-ui/core/RadioButton';
-import RadioButtonGroup from '@material-ui/core/RadioButton/RadioButtonGroup';
+import RadioButton from '@material-ui/core/Radio';
+import RadioButtonGroup from '@material-ui/core/RadioGroup';
 
 class Radios extends React.Component {
 

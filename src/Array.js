@@ -12,7 +12,7 @@ import Date from './Date';
 import Checkbox from './Checkbox';
 import Help from './Help';
 import ComposedComponent from './ComposedComponent';
-import RaisedButton from '@material-ui/core/RaisedButton';
+import Button from '@material-ui/core/Button';
 import _ from 'lodash';
 import SchemaForm from './SchemaForm';
 import IconButton from '@material-ui/core/IconButton';
@@ -148,7 +148,7 @@ class Array extends React.Component {
                         {arrays}
                     </ol>
                 </div>
-                <RaisedButton label={this.props.form.add || 'Add'} secondary={true} onTouchTap={this.onAppend}/>
+                <Button raised label={this.props.form.add || 'Add'} secondary={true} onTouchTap={this.onAppend}/>
             </div>
         );
     }

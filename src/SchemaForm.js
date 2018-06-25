@@ -6,7 +6,6 @@ import utils from './utils';
 import Number from './Number';
 import Text from './Text';
 import TextArea from './TextArea';
-import TextSuggest from './TextSuggest';
 import Select from './Select';
 import Radios from './Radios';
 import Date from './Date';
@@ -23,7 +22,6 @@ class SchemaForm extends React.Component {
         'text': Text,
         'password': Text,
         'textarea': TextArea,
-        'textsuggest': TextSuggest,
         'select': Select,
         'radios': Radios,
         'date': Date,
