@@ -5,9 +5,9 @@ import React from 'react';
 var utils = require('./utils');
 var classNames = require('classnames');
 import ComposedComponent from './ComposedComponent';
-import DatePicker from 'material-ui/DatePicker/DatePicker';
-import IconButton from 'material-ui/IconButton';
-import Clear from 'material-ui/svg-icons/content/clear';
+import DatePicker from '@material-ui/core/DatePicker/DatePicker';
+import IconButton from '@material-ui/core/IconButton';
+import Clear from '@material-ui/core/svg-icons/content/clear';
 
 /**
  * There is no default number picker as part of Material-UI.

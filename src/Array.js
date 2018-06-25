@@ -12,10 +12,10 @@ import Date from './Date';
 import Checkbox from './Checkbox';
 import Help from './Help';
 import ComposedComponent from './ComposedComponent';
-import RaisedButton from 'material-ui/RaisedButton';
+import RaisedButton from '@material-ui/core/RaisedButton';
 import _ from 'lodash';
 import SchemaForm from './SchemaForm';
-import IconButton from 'material-ui/IconButton';
+import IconButton from '@material-ui/core/IconButton';
 
 class Array extends React.Component {
 

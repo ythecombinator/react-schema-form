@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import ComposedComponent from './ComposedComponent';
-import Checkbox from 'material-ui/Checkbox';
+import Checkbox from '@material-ui/core/Checkbox';
 
 const styles = {
     error: {

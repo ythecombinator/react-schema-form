@@ -24,11 +24,13 @@
     "url": "https://github.com/networknt/react-schema-form.git"
   },
   "dependencies": {
+    "@material-ui/core": "^1.2.3",
+    "@material-ui/icons": "^1.1.0",
     "classnames": "^2.2.5",
     "lodash": "^4.16.6",
+    "notevil": "^1.1.0",
     "objectpath": "^1.2.1",
     "react-autosuggest": "^9.3.4",
-    "notevil": "^1.1.0",
     "tv4": "^1.2.7"
   },
   "devDependencies": {
@@ -47,7 +49,6 @@
     "jest-cli": "^16.0.2",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
-    "material-ui": "^0.18.7",
     "react-addons-test-utils": "^15.3.2",
     "react-hot-loader": "^3.0.0-beta.6",
     "react-tap-event-plugin": "^2.0.0",
@@ -56,7 +57,6 @@
     "webpack": "^2.7.0"
   },
   "peerDependencies": {
-    "material-ui": "^0.18.7",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
