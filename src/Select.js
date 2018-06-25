@@ -4,7 +4,7 @@
 import React from 'react';
 import ComposedComponent from './ComposedComponent';
 import MenuItem from '@material-ui/core/MenuItem';
-import SelectField from '@material-ui/core/SelectField';
+import SelectField from '@material-ui/core/Select';
 import _ from 'lodash';
 
 class Select extends React.Component {
@@ -67,7 +67,6 @@ class Select extends React.Component {
                     disabled={this.props.form.readonly}
                     onChange={this.onSelected}
                     fullWidth={true} >
-
                     {menuItems}
                 </SelectField>
             </div>

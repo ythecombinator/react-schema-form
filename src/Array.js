@@ -8,7 +8,6 @@ import Text from './Text';
 import TextArea from './TextArea';
 import Select from './Select';
 import Radios from './Radios';
-import Date from './Date';
 import Checkbox from './Checkbox';
 import Help from './Help';
 import ComposedComponent from './ComposedComponent';
